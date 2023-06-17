@@ -1,11 +1,406 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="light">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Deepanshu Justa | Web Developer</title>
+    <title>Deepanshu Justa | Web Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&family=Poppins:wght@400;700&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- Animate.style CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <style>
+        .h-font {
+            font-family: 'Merienda', cursive;
+            /* font-family: 'Poppins', sans-serif; */
+        }
+
+        section {
+            margin: 80px 0;
+        }
+        .progress {
+    height: 10px; /* Adjust the height value as per your preference */
+  }
+    </style>
 </head>
-<body>
-    <h1>Deepanshu Justa</h1>
+
+<body class="overflow-x-hidden">
+    <div class="container-fluid overflow-x-hidden p-0">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-success animate__animated animate__fadeInLeft">
+            <div class="container">
+                <a class="navbar-brand fs-2 h-font" href="#">Deepanshu Justa</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 h5">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#aboutSection">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skillSection">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#expSection">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#edSection">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contactSection">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="form-check form-switch ms-lg-5">
+                        <input class="form-check-input" type="checkbox" role="switch" id="themeCheckbox"
+                            onchange="toggleTheme()">
+                        <label class="form-check-label text-light" for="themeCheckbox">Dark Mode</label>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    
+        <header
+            style="background-image: url('https://img.freepik.com/free-vector/stream-binary-code-design_53876-118375.jpg?w=996&t=st=1686766997~exp=1686767597~hmac=c678268b02b4ec8412a5a78d8eac412196b05e24221a776668799fc020563c84'); background-size: cover;"
+            class="animate__animated animate__fadeInRight">
+            <div class="container-fluid d-flex align-items-center text-white"
+                style="min-height: 90vh; background-color: rgba(0,0,0,0.7);">
+                <div class="col-md-6 mx-auto">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="https://img.freepik.com/free-vector/mysterious-mafia-man-smoking-cigarette_52683-34828.jpg?w=740&t=st=1686767392~exp=1686767992~hmac=52728b5431b3970cb94a61d4bab7a7cc21783839643a4e5510c5da04b97ed18d"
+                                alt="" class="img-fluid rounded-circle">
+                        </div>
+                        <div class="col-md-8 d-flex align-items-center">
+                            <div class="container">
+                                <h1 class="text-center h-font mb-5">Deepanshu Justa</h1>
+                                <h2 class="text-center">Web Developer</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <main>
+
+        <section id="aboutSection" class="mt-5">
+            <div class="container  overflow-x-hidden">
+                <div class="card shadow animate__animated fadeInUp animate__slow">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h3>About</h3>
+                                <p class="lead">I am an enthusiastic beginner aspiring to become a full-stack web
+                                    developer. I have a strong foundation in front-end technologies like HTML, CSS, and
+                                    JavaScript, and I am also eager to expand my knowledge of back-end development with
+                                    frameworks like Node.js and databases like MongoDB. I am excited to take on new
+                                    challenges and create dynamic, end-to-end web solutions.</p>
+                            </div>
+                            <div class="col-md-6">
+                                <h3>Basic Information</h3>
+                                <table class="table table-striped">
+                                    <tr>
+                                        <th>Age</th>
+                                        <td>26</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Email</th>
+                                        <td>justadeepanshu@gmail.com</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Phone</th>
+                                        <td>9459877333</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Address</th>
+                                        <td>Sanjauli, Shimla, Himachal Pradesh - 171006 INDIA</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Language</th>
+                                        <td>Hindi, English</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skillSection">
+            <div class="container overflow-x-hidden animate__animated fadeInUp  animate__slow">
+                <h3 class="text-center">Professional Skills</h3>
+                <div class="card shadow">
+                    <div class="card-body fw-bold">
+                        <div class="row">
+                            <div class="col-6 my-2">
+                                <span class="text-success">HTML</span>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped bg-success animate__animated fadeInLeft animate__slower"
+                                        role="progressbar" style="width: 95%;"></div>
+                                </div>
+                            </div>
+                            <div class="col-6 my-2">
+                                <span class="text-success">CSS</span>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped bg-success animate__animated fadeInLeft animate__slower"
+                                        role="progressbar" style="width: 80%;"></div>
+                                </div>
+                            </div>
+                            <div class="col-6 my-2">
+                                <span class="text-success">JS</span>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped bg-success animate__animated fadeInLeft animate__slower"
+                                        role="progressbar" style="width: 75%;"></div>
+                                </div>
+                            </div>
+                            <div class="col-6 my-2">
+                                <span class="text-success">Bootstrap</span>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped bg-success animate__animated fadeInLeft animate__slower"
+                                        role="progressbar" style="width: 85%;"></div>
+                                </div>
+                            </div>
+                            <div class="col-6 my-2">
+                                <span class="text-success">PHP</span>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped bg-success animate__animated fadeInLeft animate__slower"
+                                        role="progressbar" style="width: 75%;"></div>
+                                </div>
+                            </div>
+                            <div class="col-6 my-2">
+                                <span class="text-success">MYSQL</span>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped bg-success animate__animated fadeInLeft animate__slower"
+                                        role="progressbar" style="width: 75%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="expSection">
+            <div class="container overflow-x-hidden">
+                <h3 class="text-center">Work Experience</h3>
+                <div class="card shadow col-md-10 mx-auto m-3 overflow-hidden">
+                    <div class="row g-0">
+                        <div
+                            class="col-md-4 bg-success text-white d-flex align-items-center justify-content-center animate__animated fadeInLeft animate__slow">
+                            <div>
+                                <p class="text-center fw-bold">May, 2023 - June, 2023</p>
+                                <h4 class="text-center">Deep Technology</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body animate__animated fadeInRight animate__slow">
+                                <h5 class="card-title">Web Developer</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card shadow col-md-10 mx-auto m-3 overflow-hidden">
+                    <div class="row g-0">
+                        <div
+                            class="col-md-4 bg-success text-white d-flex align-items-center justify-content-center animate__animated fadeInLeft animate__slow">
+                            <div>
+                                <p class="text-center fw-bold">Feb, 2023 - April, 2023</p>
+                                <h4 class="text-center">31 Parallel</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body animate__animated fadeInRight animate__slow">
+                                <h5 class="card-title">Web Developer / Support</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card shadow col-md-10 mx-auto m-3 overflow-hidden">
+                    <div class="row g-0">
+                        <div
+                            class="col-md-4 bg-success text-white d-flex align-items-center justify-content-center animate__animated fadeInLeft animate__slow">
+                            <div>
+                                <p class="text-center fw-bold">May, 2023 - June, 2023</p>
+                                <h4 class="text-center">Deep Technology</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body animate__animated fadeInRight animate__slow">
+                                <h5 class="card-title">Web Developer</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="edSection">
+            <div class="container overflow-x-hidden col-md-7">
+                <h3 class="text-center mb-3">Education</h3>
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                        <div class="card animate__animated fadeInBottomLeft animate__slow">
+                            <div class="card-header bg-success text-light py-5 text-center">
+                                <h3>Bachelor's Degree</h3>
+                                <p class="fw-bold">2015 - 19</p>
+                            </div>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Computer Science Engineering</h5>
+                                <h6 class="card-subtitle mb-2 text-body-secondary">A P Goyal Shimla University, Himachal
+                                    Pradesh</h6>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card animate__animated fadeInBottomRight animate__slow">
+                            <div class="card-header bg-success text-light py-5 text-center">
+                                <h3>High School</h3>
+                                <p class="fw-bold">2015</p>
+                            </div>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Science and Mathematics</h5>
+                                <h6 class="card-subtitle mb-2 text-body-secondary">Chapslee School Shimla, Himachal
+                                    Pradesh</h6>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contactSection" class="mb-2">
+            <div class="container-fluid overflow-x-hidden bg-dark py-5"
+                style="background-image: url('images/contact-bg.jpg'); background-size: cover;">
+                <div class="card shadow col-md-5 mx-auto animate__animated zoomIn animate__slower">
+                    <div class="card-body">
+                        <h3 class="text-center mb-3">Contact Me</h3>
+                        <div class="row">
+                            <div class="col-7">
+                                <h4>Feel Free to Contact Me</h4>
+                                <form action="">
+                                    <input class="form-control form-control-sm mb-3 rounded-pill" type="text"
+                                        placeholder="Name" aria-label="">
+                                    <input class="form-control form-control-sm mb-3 rounded-pill" type="email"
+                                        placeholder="Email" aria-label="">
+                                    <input class="form-control form-control-sm mb-3 rounded-pill" type="text"
+                                        placeholder="Subject" aria-label="">
+                                    <textarea class="form-control form-control-sm rounded mb-3" placeholder="Message"
+                                        rows="3"></textarea>
+                                    <button type="submit" class="btn btn-success btn-sm rounded-pill"><i
+                                            class="bi bi-send-fill"></i> Send</button>
+                                </form>
+                            </div>
+                            <div class="col-5">
+                                <p><strong>Address</strong><br>123</p>
+                                <p><strong>Phone</strong><br>9459877333</p>
+                                <p><strong>Email</strong><br>justadeepanshu@gmail.com</p>
+                                <hr>
+                                <div class="fs-3 d-flex justify-content-around">
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                    <a href=""><i class="bi bi-github"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h6 class="text-center bg-dark text-white h5 m-0 py-2">Designed and Developed by <span class="h-font">Deepanshu
+                Justa</span>.</h6>
+    </footer>
+
+
+    <script>
+        function toggleTheme() {
+            var checkbox = document.getElementById("themeCheckbox");
+            var htmlElement = document.documentElement;
+
+            if (checkbox.checked) {
+                htmlElement.setAttribute("data-bs-theme", "dark");
+                document.getElementsByTagName("nav").classList.remove("bg-success");
+            } else {
+                htmlElement.setAttribute("data-bs-theme", "light");
+            }
+        }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+
+    <script>
+        window.onscroll = function () {
+            let elements = document.querySelectorAll(".animate__animated");
+            let windowHeight = window.innerHeight;
+
+            for (let i = 0; i < elements.length; i++) {
+                let element = elements[i];
+                let elementTop = element.getBoundingClientRect().top;
+                let elementBottom = element.getBoundingClientRect().bottom;
+
+
+                if (elementTop < windowHeight && elementBottom > 0) {
+                    if (element.classList.contains("zoomIn")) {
+                        element.classList.add("animate__zoomIn");
+                    }
+                    else if (element.classList.contains("fadeInUp")) {
+                        element.classList.add("animate__fadeInUp");
+                    }
+                    else if (element.classList.contains("fadeInLeft")) {
+                        element.classList.add("animate__fadeInLeft");
+                    }
+                    else if (element.classList.contains("fadeInRight")) {
+                        element.classList.add("animate__fadeInRight");
+                    }
+                    else if (element.classList.contains("fadeInBottomLeft")) {
+                        element.classList.add("animate__fadeInBottomLeft");
+                    }
+                    else if (element.classList.contains("fadeInBottomRight")) {
+                        element.classList.add("animate__fadeInBottomRight");
+                    }
+                    // Add additional conditions as needed for different elements
+                }
+            }
+        };
+    </script>
 </body>
+
 </html>

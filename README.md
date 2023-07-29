@@ -5,3 +5,5 @@ My Portfolio Website.
 HTML 
 CSS 
 JS 
+
+coding can sometimes be overwhelming.
